@@ -39,10 +39,10 @@ async def is_admins(chat_id: int):
 async def start_(client: Client, message: Message):
     await message.reply_photo(
         photo=f"{BOT_IMAGE}",
-        caption=f"""**๏ ʜᴇʏ, ɪ ɪᴍ [sᴜᴢɪᴇ](https://t.me/Suzie_chat_bot)\n\n๏ ɪ ᴀᴍ ᴀʀᴛɪғɪᴄɪᴀʟ ɪɴᴛᴇʟʟɪɢᴇɴᴄᴇ\n\n๏ /chatbot - [on|off]
+        caption=f"""**๏ ʜᴇʏ, ɪ ɪᴍ [ʟᴜᴄᴋʏ](https://t.me/lucky_pro_robot)\n\n๏ ɪ ᴀᴍ ᴀʀᴛɪғɪᴄɪᴀʟ ɪɴᴛᴇʟʟɪɢᴇɴᴄᴇ\n\n๏ /chatbot - [on|off]
 
 ┏━━━━━━━━━━━━━━━━━┓
-┣❥︎ Cʀᴇᴀᴛᴇʀ ➪ » [˹ Kʀɪsʜɴᴀ ˼](https://t.me/{OWNER_USERNAME})
+┣❥︎ Cʀᴇᴀᴛᴇʀ ➪ » [˹ ᴍᴏɴᴅᴏ ˼](https://t.me/{OWNER_USERNAME})
 ┣❥︎ Sᴜᴘᴘᴏʀᴛ ➪ » [Cʟɪᴄᴋ Hᴇʀᴇ](https://t.me/{SUPPORT_GROUP})
 ┣❥︎ Uᴘᴅᴀᴛᴇs ➪ » [Cʟɪᴄᴋ Hᴇʀᴇ](https://t.me/{UPDATES_CHANNEL})
 ┗━━━━━━━━━━━━━━━━━┛**""",
@@ -50,7 +50,7 @@ async def start_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "💞 Jᴏɪɴ Oᴜʀ Cʜᴀᴛ Gʀᴏᴜᴘ 💞", url=f"https://t.me/frienddd_zoneee")
+                        "💞 Jᴏɪɴ Oᴜʀ Cʜᴀᴛ Gʀᴏᴜᴘ 💞", url=f"https://t.me/jsskskjsbnnskj")
                 ]
                 
            ]
@@ -67,7 +67,7 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "💞 ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀᴛ ɢʀᴏᴜᴘ 💞", url=f"https://t.me/frienddd_zoneee")
+                        "💞 ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀᴛ ɢʀᴏᴜᴘ 💞", url=f"https://t.me/jsskskjsbnnskj")
                 ]
             ]
         ),
